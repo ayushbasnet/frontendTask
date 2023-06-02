@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Kaushan+Script&family=Roboto+Slab&display=swap");
+li {
+  margin: 1em;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.background-image-div {
+  background-image: url("images/vape.jpg");
+  background-size: cover;
+  background-position: center;
+  /* Additional styling properties */
+  height: 7em;
+  width: 100%;
+}
+
+.background-image-div2 {
+  background-image: url("images/vapeHome.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 58em;
+}
+
+.background-image-div3 {
+  background-image: url("images/black-pink.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 120px;
+  padding-top: 1em; /* Adjust padding as needed */
+}
+
+.carousel-item {
+  height: 30em;
+  color: black;
+  position: relative;
+}
+
+.carousel-container {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  padding-bottom: 10px;
+}
+
+.navbar-logo {
+  margin-right: auto;
+}
+
+.navbar-links {
+  justify-content: center;
+}
+
+.navbar-icons {
+  margin-left: auto;
+}
+
+.navbar-icons i {
+  padding: 0 10px; /* Adjust the padding as per your requirement */
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 100%; /* Adjust this value as needed */
+  margin: 0 auto; /* Optional: Center the images horizontally */
+}
+.carousel-control {
+  color: #000; /* Customize arrow color */
+  opacity: 0.5; /* Customize arrow opacity */
+}
+
+.carousel-control:hover {
+  opacity: 1; /* Customize arrow opacity on hover */
+}
+
+.col {
+  padding: 0%;
+  margin: 0%;
+}
+
+.custom-height {
+  height: 15em; /* Set the desired height value */
+}
+.product-height {
+  height: 35em;
+}
+
+.img-vape1 {
+  background-image: url("images/black-pink.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+}
+.img-vape2 {
+  background-image: url("images/devices.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 28vh;
+  margin: 1rem;
+}
+.img-vape3 {
+  background-image: url("images/flavours.jpg");
+  background-size: 100%;
+  background-position: center;
+  height: 28vh;
+  margin: 1rem;
+}
+
+.card {
+  border: none;
+}
+.custom-size {
+  width: 300px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+.logo .swiper-slide img {
+  width: 100%;
+  height: 80%;
+}
+
+.brand .swiper-slide img {
+  width: 100%;
+  height: 80%;
+}
+
+.flavors .swiper-slide img {
+  width: 100%;
+  height: 80%;
+}
